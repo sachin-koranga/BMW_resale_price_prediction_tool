@@ -1,17 +1,27 @@
-myenv
-
+# Python
 __pycache__/
-*.pyc
+*.py[cod]
 
+# Jupyter Notebook
 .ipynb_checkpoints/
 
-*.pkl
+# Virtual Environment
+venv/
+.venv/
+env/
 
-.streamlit/secrets.toml
+# Environment Variables
+.env
 
+# VS Code
+.vscode/
+
+# Pytest
+.pytest_cache/
+
+# Logs
 *.log
-tmp/
-temp/
 
-Thumbs.db
+# OS Files
 .DS_Store
+Thumbs.db
